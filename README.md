@@ -40,3 +40,59 @@ Chamas often struggle to monitor payments and remind members to contribute on ti
 
 ## 📂 Project Structure  
 
+chama-reminder-bot/
+│
+├── app.py # Main Flask app
+├── chama.db # SQLite database (auto-generated on first run)
+├── templates/
+│ ├── index.html # Homepage with member table + actions
+│ └── add_member.html # Add member form
+└── venv/ (optional) # Virtual environment (not included in GitHub)
+
+## ⚡ How to Run Locally  
+
+1️⃣ Clone the repo  
+git clone https://github.com/yourusername/chama-reminder-bot.git
+cd chama-reminder-bot
+
+
+2️⃣ Create virtual environment  
+python -m venv venv
+
+3️⃣ Activate it  
+- **Windows:**  
+
+4️⃣ Install Flask  
+pip install Flask
+
+5️⃣ Run the app  
+python app.py
+
+6️⃣ Open in browser:  
+http://127.0.0.1:5000/
+
+
+
+---
+
+## 🌟 Future Improvements  
+
+- Real SMS/WhatsApp integration (e.g. Twilio, Africa's Talking)  
+- PDF reports for Chama records  
+- M-Pesa payment integration  
+- Authentication for admin access  
+
+---
+
+## ❤️ Credits  
+
+Built by Elidy Muriithi for Hackathon 2025.  
+
+---
+
+## 💌 License  
+
+This project is open for educational and demo purposes.  
+
+
+
